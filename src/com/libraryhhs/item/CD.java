@@ -11,6 +11,11 @@ public class CD extends LibraryItem {
         this.numTracks = numTracks;
     }
 
+    public void setArtist(String artist) {this.artist = artist;}
+    public void setNumTracks(int numTracks) {this.numTracks = numTracks;}
+    public String getArtist() {return artist;}
+    public int getNumTracks() {return numTracks;}
+
     @Override
     public String toString() {
         return  "Title         : "  + title     + "\n" +

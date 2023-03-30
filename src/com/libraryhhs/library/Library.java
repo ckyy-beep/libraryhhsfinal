@@ -35,11 +35,9 @@ public class Library {
     public void setBooks(ArrayList<Book> books) {
         this.catalog = books;
     }
-
     public String getLibraryName() {
         return libraryName;
     }
-
     public ArrayList<Book> getCatalog() {
         return catalog;
     }

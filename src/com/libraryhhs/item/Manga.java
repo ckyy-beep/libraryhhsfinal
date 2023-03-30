@@ -9,6 +9,14 @@ public class Manga extends LibraryItem  {
         this.numVolumes = numVolumes;
     }
 
+    public void setNumVolumes(String numVolumes) {
+        this.numVolumes = numVolumes;
+    }
+
+    public String getNumVolumes() {
+        return numVolumes;
+    }
+
     @Override
     public String toString() {
         return  "Title          : "  + title      + "\n" +

@@ -450,6 +450,7 @@ public class Program {
                     System.out.print("Answer: ");
                     answer = scanner.nextLine();
 
+
                     if (answer.equals("n")) {
                         running = false;
                         printExitMessage();
@@ -487,6 +488,8 @@ public class Program {
                         scanner.next(); // Clear the scanner buffer
                         continue; // Go back to the start of the loop
                     }
+
+
 
                     switch (option3) {
 

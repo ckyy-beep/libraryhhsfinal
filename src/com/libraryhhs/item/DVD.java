@@ -13,6 +13,30 @@ public class DVD extends LibraryItem {
         this.rating = rating;
     }
 
+    public void setDirector(String director) {
+        this.director = director;
+    }
+
+    public void setDuration(String duration) {
+        this.duration = duration;
+    }
+
+    public void setRating(String rating) {
+        this.rating = rating;
+    }
+
+    public String getDirector() {
+        return director;
+    }
+
+    public String getDuration() {
+        return duration;
+    }
+
+    public String getRating() {
+        return rating;
+    }
+
     @Override
     public String toString() {
         return  "Title       : " + title    + "\n" +
